@@ -40,6 +40,13 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="flex_layout"
+        options={{
+          title: 'Flex Layout',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperclip.circle.fill" color={color} />,
+        }}
+      />
     </Tabs>
   );
 }
