@@ -146,7 +146,7 @@ const styles = StyleSheet.create({
   },
   boxDisplay: {
     flex: 1,
-    height: 300, // Increased height for better visibility
+    height: 300,
     flexWrap: "wrap",
     backgroundColor: "#f0f0f0",
     padding: 10,
@@ -155,7 +155,7 @@ const styles = StyleSheet.create({
   },
   flexItem: {
     width: 60,
-    minHeight: 40, // Minimum height instead of fixed height
+    minHeight: 40,
     backgroundColor: "#347deb",
     alignItems: "center",
     justifyContent: "center",
